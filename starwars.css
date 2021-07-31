@@ -1,0 +1,150 @@
+body{
+    margin:0px;
+    background-color: black;
+    font-family: 'Georama', sans-serif;
+}
+
+#overAllDiv{
+    width:40%;
+    /* border:1px solid white; */
+    margin:15% auto;
+}
+
+#overAllDiv > #starwarsLogo{
+    width:200px;
+    margin:0px 220px;
+    margin-bottom:20px;
+}
+
+input {
+    width: 600px;
+    background-color:#2d2f30;
+    border: 0;
+    outline: 0;
+    color: #f2f2f2;
+    font-size: 16px;
+    height: 30px;
+    width: 80%;
+    margin:0px auto;
+    margin-left:10px;
+}
+
+#searchLogo{
+    width:15px;
+    background-color: rgb(255, 235, 0); 
+    float:right;
+    padding:10px;
+    margin-right:5px;
+    border-radius: 100%;
+}
+
+#mainDiv {
+    max-width: 600px;
+    max-height:300px;
+    width: 96%;
+    border-radius: 30px;
+    outline: 0;
+    font-size: 16px;
+    background: #2d2f30;
+    color: #f2f2f2;
+    padding:12px;
+}
+
+#namesDiv{
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+#hr{
+    width:98%;
+    margin:12px auto;
+}
+
+.personSearch{
+    margin:20px auto;
+    padding: 5px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.personSearch:hover .personName{
+    color:yellow
+}
+
+#personDetails{
+    color:white;
+    display:grid;
+    grid-template-rows: 18% 56% 18%; 
+    grid-gap:4%;
+    border:3px solid red;
+    border-radius:50px;
+    width:60%;
+    height:500px;
+    margin:125px auto;
+}
+
+#personDetailsName{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color:red;
+    font-weight:500;
+}
+
+#middleBlock{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:0px 5%;
+    gap:5%;
+    color:red;
+    height:100%;
+}
+
+#middleBlock > div{
+    border:3px solid red;
+    border-radius: 25px;
+    font-size: 30px;
+    padding:2%;
+    text-align: center;
+}
+
+#middleBlock > div:hover{
+    transition:0.4s;
+    border:3px solid aqua;
+    color:aqua
+}
+
+#middleBlock > div div:nth-child(1){
+    font-size:42px;
+    margin:0px;
+    margin-bottom:25px;
+}
+
+#middleBlock > div div{
+    margin:25px 0px;
+}
+
+#goBack{
+    width:120px;
+    height: 50px;
+    border:3px solid red;
+    background-color:black;
+    color:red;
+    border-radius:50px;
+    margin:auto
+}
+
+#goBack:hover{
+    transition:0.4s;
+    border:3px solid aqua;
+    color:aqua;
+}
+
+#notFound{
+    font-size:10px;
+    font-style: italic;
+    color: gray !important;
+    margin: 10px auto;
+    width:200px;
+}
